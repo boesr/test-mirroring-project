@@ -5,8 +5,8 @@ import Basic_Class
 class Testing(unittest.TestCase):
     def test_adding_numbers(self):
         basic_class = Basic_Class.Basic_Class()
-        a = 7
-        b = 1
+        a = 8
+        b = 0
         self.assertEqual(8, basic_class.addNumbers(a,b))
 
     def test_leetSpeak(self):
